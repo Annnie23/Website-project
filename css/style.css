@@ -5,14 +5,129 @@
   }
   
   body {
-    background-color: #707070;
+    background-color: #fff;
+  }
+
+  header {
+    background-color: #fff;
+    color: #707070;
+    padding: 15px 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo img {
+    height: 35px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 75px;
+    display: flex;
+    
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+
+nav a:hover {
+    color: #5B7523;
+}
+
+
+  .hero-image{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("/img/Svølle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-image .hero-text{
+    color: #fff;
+    text-align: center;  
+  }
+
+  .hero-image .hero-text h1{
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .hero-image .hero-text p{
+    font-size: 30px;
+    font-weight: 300; 
+    line-height: 10px;
+  }
+
+  .hero-image .hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #5B7523;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .hero-image .hero-btn:hover{
+    background: #fff;
+    color: #5B7523;
   }
 
 
+  .row{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    width: 25%;
+    height: 300px;
+    background-color: #FAEBDC;
+    color: #707070;
+    padding: 10px;
+    margin: 40px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 5px;
 
-
-
-
+  }
+  
+  .column h1{
+    font-size: 35px;
+    font-weight: 400;
+  }
+ 
+  .column p{
+    font-size: 20px;
+    font-weight: 300; 
+    padding-top: 15px;
+    padding-bottom: 2px;
+  }
 
 
 
