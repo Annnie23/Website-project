@@ -1,3 +1,4 @@
+ /* Overall body */
  * {
     margin:0;
     padding:0;
@@ -8,6 +9,7 @@
     background-color: #fff;
   }
 
+  /* Header og Navbar */
   header {
     background-color: #fff;
     color: #707070;
@@ -35,7 +37,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 nav a {
@@ -45,11 +47,11 @@ nav a {
     font-weight: 400; 
 }
 
-
 nav a:hover {
     color: #5B7523;
 }
 
+/* Hero img og tekst */
 
   .hero-image{
     background-image: linear-gradient(
@@ -96,6 +98,7 @@ nav a:hover {
     color: #5B7523;
   }
 
+  /* Første 3 columns */
 
   .row{
     display: flex;
@@ -128,6 +131,154 @@ nav a:hover {
     padding-top: 15px;
     padding-bottom: 2px;
   }
+
+  /* Billede (korn) og tekst */
+
+  .container-nature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px; */
+   }
+   
+   img{
+     max-width: 870px;
+     max-height: 900px;
+     /* padding-left: 100px; */
+   }
+   
+   .text-nature{
+   padding-left: 80px;
+   padding-right: 0px;
+   color: #707070;
+   }
+
+   .text-nature h1{
+    font-size: 35px;
+    font-weight: 400;
+   }
+
+   .text-nature p{
+    font-size: 20px;
+    font-weight: 300;
+   }
+
+   .nature-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #5B7523;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+   }
+
+   .nature-btn:hover{
+    background: #FAEBDC;
+    color: #5B7523;
+   }
+
+
+   /* 4 columns med ahhuuhhhmm billeder og tekst under */
+.col-3{
+  font-size: 20px;
+    font-weight: 300; 
+    color: #707070;
+}
+
+
+/* Mark baggrund + tekst */
+
+.hero-mark{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("/img/barley-field-1426269_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3 cols sammenhængende/efter mark */
+
+/* .row mark{
+  display: flex;
+  justify-content: center;
+}             SKAL DEN VÆRE HER? HAR DEN BETYDNING? - HVAD FU*K ER PROBLEMET MED KASSERNE?*/ 
+
+.col-4 {
+  width: 25%;
+  height: 300px;
+  background-color: #FAEBDC;
+  color: #707070;
+  padding: 10px;
+  margin: 40px ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.col-4 h1{
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.col-4 p{
+  font-size: 20px;
+  font-weight: 300; 
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+.mark-btn{
+  text-decoration: none;
+  color: #fff;
+  background: #5B7523;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+ }
+
+ .mark-btn:hover{
+  background: #fff;
+  color: #5B7523;
+ }
+
+ .mark-text{
+  color: #fff;
+  text-align: center;  
+}
+
+.mark-text h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.mark-text p{
+  font-size: 30px;
+  font-weight: 300; 
+  line-height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
