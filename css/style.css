@@ -206,6 +206,22 @@ nav a:hover {
     align-items: center;
 }
 
+.hero-mark-text{
+  color: #fff;
+  text-align: center;  
+}
+
+.hero-mark-text h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.hero-mark-text p{
+  font-size: 30px;
+  font-weight: 300; 
+  line-height: 10px;
+}
+
 /* 3 cols sammenhængende/efter mark */
 
 /* .row mark{
@@ -254,21 +270,7 @@ nav a:hover {
   color: #5B7523;
  }
 
- .mark-text{
-  color: #fff;
-  text-align: center;  
-}
 
-.mark-text h1{
-  font-size: 50px;
-  font-weight: 400;
-}
-
-.mark-text p{
-  font-size: 30px;
-  font-weight: 300; 
-  line-height: 10px;
-}
 
 
 
