@@ -65,6 +65,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -65px;
   }
 
   .hero-image .hero-text{
@@ -107,7 +108,7 @@ nav a:hover {
   
   .column {
     width: 25%;
-    height: 300px;
+    height: auto;
     background-color: #FAEBDC;
     color: #707070;
     padding: 10px;
@@ -224,18 +225,20 @@ nav a:hover {
 
 /* 3 cols sammenhængende/efter mark */
 
-/* .row mark{
+.row.mark{
   display: flex;
   justify-content: center;
-}             SKAL DEN VÆRE HER? HAR DEN BETYDNING? - HVAD FU*K ER PROBLEMET MED KASSERNE?*/ 
+  background-color: #fff;
+  flex-wrap: nowrap;
+ }
 
 .col-4 {
-  width: 25%;
-  height: 300px;
+  width: auto;
+  height: auto;
   background-color: #FAEBDC;
   color: #707070;
-  padding: 10px;
-  margin: 40px ;
+  padding: 2px;
+  margin: 2px ;
   display: flex;
   justify-content: center;
   text-align: center;
