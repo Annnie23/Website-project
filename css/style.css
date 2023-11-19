@@ -492,10 +492,10 @@ input[type=submit]:hover{
 }
 
 .footer-content h3{
-  font-size: 1.8rem;
+  font-size: 30px;
   font-weight: 400;
-  text-transform: capitalize;
-  line-height: 3rem;
+  line-height: 48px;
+  padding-top: 40px;
 }
 
 .footer-content p{
@@ -510,7 +510,7 @@ input[type=submit]:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 16px 0 48px 0;
 }
 
 .socials li{
@@ -523,7 +523,7 @@ input[type=submit]:hover{
 }
 
 .socials a i{
-  font-size: 1.1rem;
+  font-size: 17.6px;
   transition: color .4s ease;
 }
 
@@ -545,17 +545,176 @@ input[type=submit]:hover{
 }
 
 .footer-bottom span{
-  text-transform: uppercase;
   opacity: .4;
   font-weight: 200;
 }
 
+/* Hero hest - Børn og unge */
+
+.hero-hest{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("/img/iceland-1747368_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-hest-text{
+  color: #FAEBDC;
+  text-align: center;  
+}
+
+.hero-hest-text h1{
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.hero-hest-text p{
+  font-size: 30px;
+  font-weight: 300; 
+  line-height: 10px;
+}
+
+/* Billede og tekst - Børn og unge */
+
+.container-born{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+ }
+ 
+ .image-born img{
+   width: 700px;
+   height: 500px;
+ }
+ 
+ .text-born{
+ padding-left: 40px;
+ padding-right: 0px;
+ color: #707070;
+ margin: 40px;
+ }
+
+ .text-born h1{
+  font-size: 35px;
+  font-weight: 400;
+ }
+
+ .text-born p{
+  font-size: 18px;
+  font-weight: 300;
+ }
+
+ .born-btn{
+  text-decoration: none;
+  color: #fff;
+  background: #5B7523;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+ }
+
+ .born-btn:hover{
+  background: #FAEBDC;
+  color: #5B7523;
+ }
+
+ /* Pippi Quote */
+
+ .hero-blade{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("/img/leaves-1498985_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-blade-text{
+  color: #707070;
+  text-align: center;  
+}
+
+.hero-blade-text:hover{
+  color: #FAEBDC;
+}
+
+.hero-blade-text h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.hero-blade-text p{
+  font-size: 30px;
+  font-weight: 300; 
+  line-height: 10px;
+}
 
 
+/* Billede og tekst kvinder */
+
+.container-kvinde{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+ }
+ 
+ .image-kvinde img{
+   width: 700px;
+   height: 500px;
+ }
+ 
+ .text-kvinde{
+ padding-left: 40px;
+ padding-right: 0px;
+ color: #707070;
+ margin: 40px;
+ }
+
+ .text-kvinde h1{
+  font-size: 40px;
+  font-weight: 400;
+ }
+
+ .text-kvinde p{
+  font-size: 18px;
+  font-weight: 300;
+ }
+
+ .kvinde-btn{
+  text-decoration: none;
+  color: #fff;
+  background: #5B7523;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+ }
+
+ .kvinde-btn:hover{
+  background: #FAEBDC;
+  color: #5B7523;
+ }
 
 
-
-
+ 
 
 
 
