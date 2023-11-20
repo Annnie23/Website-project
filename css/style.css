@@ -635,7 +635,7 @@ input[type=submit]:hover{
   background-image: linear-gradient(
     rgba(0,0,0,0.7),
     rgba(0,0,0,0.7)),
-    url("/img/leaves-1498985_1280.jpg");
+    url("/img/forest-1868529_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -714,7 +714,47 @@ input[type=submit]:hover{
  }
 
 
- 
+ /* Kontakt formular */
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=tekst], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=send] {
+  background-color: #5B7523;
+  color: white;
+  padding: 12px 20px;
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=send]:hover {
+  background-color: #5B7523;
+}
+
+/* Add a background color and some padding around the form */
+.container-kontakt {
+  border-radius: 5px;
+  background-color: #FAEBDC;
+  padding: 20px;
+}
+
+form[action=action_page]{
+  border:none;
+}
 
 
 
